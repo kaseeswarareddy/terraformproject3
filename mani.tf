@@ -13,7 +13,7 @@ Name = "rani"
 }
 
 resource "aws_s3_bucket" "two" {
-bucket = "max123"
+bucket = "var4114"
 }
 
 resource "aws_ebs_volume" "three" {
