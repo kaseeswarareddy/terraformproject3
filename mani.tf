@@ -13,5 +13,5 @@ Name = "rama"
 }
 
 resource "aws_s3_bucket" "two" {
-bucket = "mybucket123"
+bucket = "prave2758"
 }
