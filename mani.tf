@@ -1,9 +1,8 @@
 
-resource "aws_instance" "one" {
+resource "aws_instance" "example" {
 ami = "ami-0cca134ec43cf708f"
-instance_type = "t2.medium"
-tags = {
-Name = "rani"
+instance_type = var.instance_type
+tags = var.tags
 }
-}
+
 
