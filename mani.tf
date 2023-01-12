@@ -1,7 +1,3 @@
-provider "aws" {
-region = "ap-south-1"
-
-}
 
 resource "aws_instance" "one" {
 ami = "ami-0cca134ec43cf708f"
@@ -11,14 +7,3 @@ Name = "rani"
 }
 }
 
-resource "aws_s3_bucket" "two" {
-bucket = "var4114"
-}
-
-resource "aws_ebs_volume" "three" {
-availability_zone = "ap-south-1a"
-size = 40
-tags = {
-  Name = "hello world"
-}
-}
